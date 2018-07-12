@@ -2,8 +2,10 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-		<link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+		<link href="./resources/css/style.css" type="text/css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="./resources/js/script.js"></script>
     <title>OLicom</title>
   </head>
   <style>
@@ -11,16 +13,18 @@
   <body>
     <div class="header">
       <div class="container">
-        <h1><img src="./resources/olicom.png"></h1>
-         <p>Web Dev <span class="fas fa-sync fa-spin" data-fa-transform="up-5" style="font-size: 0.5em"></span> App Integration</p><br><br>
-        <a class="btn" href="#">Learn More</a>
+        <h1><img src="./resources/images/olicom.png"></h1>
+         <p>Web Design</p>
+         <p class="fas fa-sync fa-spin" data-fa-transform="up-5" style="font-size: 2.2em" color="#000"></p>
+         <p>App Integration</p><br><br>
+        <a class="btn" href="#nav">Learn More</a>
       </div>
     </div>
 
-    <div class="nav">
+    <div class="nav" id="nav">
       <div class="container">
         <ul>
-          <li>Website Questionnaire</li>
+          <a href="#start"><li>Website Questionnaire</li></a>
           <li>Clients</li>
           <li>About</li>
           <li>Contact</li>
@@ -46,7 +50,7 @@
       <div class="container">
         <h2>Need a New Website?</h2>
         <p>Download our questionnaire</p>
-        <a class="btn" href="#">Start</a>
+        <a class="btn" id="start" href="#">Start</a>
       </div>
     </div>
 
