@@ -25,7 +25,7 @@ body {
 .header .container {
   position: relative;
   top: 150px;
-  text-shadow: 0px 2px 3px #47927c;
+  text-shadow: 0px 2px 3px #fff;
 }
 
 .header h1 {
@@ -112,6 +112,7 @@ body {
 .jumbotron .container {
   position: relative;
   top: 220px;
+  text-shadow: 0px 2px 3px #fff;
 }
 
 .jumbotron h1 {
@@ -126,6 +127,7 @@ body {
   text-align: right;
   font-weight: bold;
   font-size: 18px;
+  text-shadow: 0px 2px 3px #fff;
 }
 
 .jumbotron .btn {
