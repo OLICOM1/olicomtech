@@ -72,6 +72,7 @@ body {
   list-style: none;
   margin: 0 auto;
   padding: 0;
+
 }
 
 .nav ul li {
@@ -82,7 +83,10 @@ body {
   list-style: none;
   padding: 0 10px;
   transition: background .5s;
+  
 }
+
+
 
 .btn:hover, .nav ul li:hover {
   background: #117bff;
@@ -110,20 +114,27 @@ body {
   top: 220px;
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
   color: #000;
   text-align: right;
+  font-weight: bold;
+  
 }
 
 .jumbotron p {
   color: #000;
   text-align: right;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .jumbotron .btn {
   margin: 10px 0 0;
   float: right;
+
 }
+
+
 
 .footer {
   background: #000;
@@ -155,7 +166,7 @@ body {
 }
 
 #nav, #start {
-  transition-duration: 3.3s;
+  transition-duration: 0.5s;
   transition-timing-function: ease-in;
   transition-delay:
 }
