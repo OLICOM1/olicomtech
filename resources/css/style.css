@@ -100,7 +100,7 @@ body {
 }
 
 .jumbotron {
-  background: url(../images/circ2.jpg) center center;
+  background: url("../images/circ2.jpg") center center;
   background-size: cover;
   height: 600px;
 }
